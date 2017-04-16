@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+
+    -<RelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:background="#363C3F" android:id="@+id/main_re">
+
+    <TextView android:layout_height="50dp" android:layout_width="match_parent" android:id="@+id/main_texts" android:gravity="center" android:textColor="#fff" android:text="123" android:textSize="30sp"/>
+
+    <ImageView android:layout_height="35dp" android:layout_width="35dp" android:id="@+id/main_click" android:src="@mipmap/skyblue_actionbar_back_btn" android:layout_marginTop="10dp"/>
+
+</RelativeLayout>
+
+    <ListView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/main_list" android:layout_below="@id/main_re"> </ListView>
+</RelativeLayout>
